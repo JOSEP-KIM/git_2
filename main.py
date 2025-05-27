@@ -4,8 +4,8 @@ from multiply import multiply
 from divide import divide 
  
 def calculator(): 
-    a = float(input("첫 번째 숫자: ")) 
-    b = float(input("두 번째 숫자: ")) 
+    a = float(input("첫 번째 숫자 입니다: ")) 
+    b = float(input("두 번째 숫자 입니다: ")) 
     op = input("연산자 (+, -, *, /): ") 
     operations = { 
         '+': add, 
@@ -20,7 +20,7 @@ def calculator():
         except Exception as e: 
             print("오류:", e) 
     else: 
-        print("올바르지 않은 연산자입니다.") 
+        print("올바르지 않은 연산자 입니다.") 
  
 if __name__ == "__main__": 
     calculator() 
